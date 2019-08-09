@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from redis import Redis
-
+from session_redis import Redis
 
 from school_api import SchoolClient
 from school_api.session.redisstorage import RedisStorage

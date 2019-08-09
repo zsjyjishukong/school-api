@@ -4,7 +4,7 @@
 import sys
 import os
 import unittest
-from redis import Redis
+from session_redis import Redis
 
 cur_path = os.path.abspath(__file__)
 parent = os.path.dirname

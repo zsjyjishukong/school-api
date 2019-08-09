@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, unicode_literals
 
-from redis import Redis
+from session_redis import Redis
 from school_api import SchoolClient
 from school_api.session.redisstorage import RedisStorage
 
